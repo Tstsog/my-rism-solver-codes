@@ -5,17 +5,18 @@ Author: Tsogbayar Tsednee (PhD)
 Contact: tsog215@gmail.com
 
 ## Introduction:
+ 
+The codes rism1d_solver_homonuclear_diatomic_liquid_hnc.m and rism1d_solver_heteronuclear_diatomic_liquid_hnc solve the RISM equation for uncharged homo/heteronuclear diatomic liquid in
+the hypernetted chain approximation using the Picard iterative method. The codes rism1d_solver_charged_spc_h2o_model_hnc.m solves the RISM equation for charged SPC three-point water model in the 
+hypernetted chain approximation as well.
 
-The rism1d_solver_homonuclear_diatomic_liquid_hnc.m solves the RISM equation for uncharged homonuclear diatomic liquid in
-the hypernetted chain approximation using the Picard iterative method. 
 
 ## Requirement:
 Any version of Matlab
 
 ## Implementation details and running
 
-The code oz_lj_ts_run_opt_one_parm.m uses the fminsearch.m function from Matlab software to find a optimal value of a free parameter. A code oz_lj_ts.m solves the Ornstein-Zernike integral equation for the Lennard-Jones potential together with a one-parameter Verlet-modified closure. The code oz_lj_ts.m  uses a code lsint.m which calculates the sine transform of a function.
-You may download them and run the oz_lj_ts_run_opt_one_parm.m directly. You can download and run the OZ_solver_one_component_plasma_hnc.m directly.
+All three codes use the Picard iterative method and you may download and run them directly to obtain the radial distribution function for the chosen physical system. 
 
 ## Copyright / License
 
@@ -25,4 +26,4 @@ Find the GNU General Public License at:
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ### Acknowledgments
-Author is very thankful for advices of Professor T. Luchko at California State University, Northridge regarding to an usage of a fminsearch function of Matlab software.
+Author is very thankful for helpful advices of Professor T. Luchko at California State University, Northridge.
