@@ -26,4 +26,4 @@ Find the GNU General Public License at:
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 ### Acknowledgments
-Author is very thankful for helpful advices of Professor T. Luchko at California State University, Northridge.
+Author is very thankful for helpful discussions of Professor T. Luchko at California State University, Northridge.
