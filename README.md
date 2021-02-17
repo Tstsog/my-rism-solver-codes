@@ -7,8 +7,9 @@ Contact: tsog215@gmail.com
 ## Introduction:
  
 The codes rism1d_solver_homonuclear_diatomic_liquid_hnc.m and rism1d_solver_heteronuclear_diatomic_liquid_hnc solve the RISM equation for uncharged homo/heteronuclear diatomic liquid in
-the hypernetted chain approximation using the Picard iterative method. The codes rism1d_solver_charged_spc_h2o_model_hnc.m solves the RISM equation for charged SPC three-point water model in the 
-hypernetted chain approximation as well.
+the hypernetted chain approximation using the Picard iterative method. The codes rism1d_solver_charged_spc_h2o_model_hnc.m solves the RISM equation for charged SPC three-point water model in the hypernetted chain approximation as well. 
+
+The code rism_1D_solute_solvent_equation_hnc_example_1.m solves the solute-solvent RISM equations for SPC/E water model and K+ ion.
 
 
 ## Requirement:
